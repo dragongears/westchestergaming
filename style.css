@@ -1,0 +1,13 @@
+/*
+Theme Name: WGG
+Theme URI: http://westchestergaming.org
+Description: Based on Starkers (http://elliotjaystocks.com) - The totally nude Wordpress theme. Phwoar! (Based on the famous <a href="http://binarybonsai.com/kubrick/">Kubrick</a> by <a href="http://binarybonsai.com/">Michael Heilemann</a>)
+Version: 1 (WP3.0.1)
+Author: Art Dahm
+Author URI: http://art.dahm.com
+Tags: starkers, naked, clean, basic
+*/
+
+@import "style/css/reset.css";
+@import "style/css/typography.css";
+@import "style/css/layout.css";

@@ -1,0 +1,225 @@
+
+/*======================================
+      WELCOME TO THE STYLESHEET
+--------------------------------------      
+     Copyright Mike Crittenden
+      Author: Mike Crittenden
+======================================*/
+ 
+/**************************************\
+|------------COLOR SCHEME--------------|
+|--------------------------------------|
+- black		#000
+- white		#fff
+\**************************************/
+
+
+/**************************************/
+/*              GLOBALS               */
+/**************************************/
+
+html {overflow-y: scroll;}
+body {background:#fff url(../img/wgg-bg.png) repeat scroll 0 0;}
+a:link { text-decoration: underline; color: #0A4CA1; }
+a:visited { text-decoration: underline; color: #0A4CA1; }
+a:hover { text-decoration: underline; color: #4074E8; }
+a:active, a:focus { text-decoration: underline; color: #0A4CA1; }
+
+#container {
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+/**************************************/
+/*              HEADER                */
+/**************************************/
+
+#head {
+	background-color:#f2e7d2;
+	border-radius:20px 20px 0px 0px;
+	-moz-border-radius: 20px 20px 0px 0px;
+	-webkit-border-radius: 20px 20px 0px 0px;
+	border-left: solid 1px #0A4CA1;
+	border-top: solid 1px #0A4CA1;
+	border-right: solid 1px #0A4CA1;
+}
+h1 {margin:12px 0 0 16px;}
+h1 a {
+    background:transparent url(../img/wgg-header.png) no-repeat scroll 0 0;
+    display:block;
+    height:130px;
+    overflow:hidden;
+    text-decoration:none;
+    text-indent:-9000px;
+    width:500px;
+}
+#head p {
+	margin-left:380px;
+	margin-bottom:0.8em;
+	font-size:1.4em;
+	color:#000;
+	font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif;
+	font-style: italic;
+	font-weight: normal;
+	text-shadow: 2px 2px 1px #ddd;
+}
+
+#searchform {padding-top:40px;}
+#searchform input {float:left;vertical-align:middle;width:130px;height:16px;margin-right:3px;}
+#searchform button {
+	float: left;
+	vertical-align: middle;
+	padding: 1px 8px;
+}
+
+/**************************************/
+/*             NAVIGATION             */
+/**************************************/
+
+#breadcrumbs {
+	background-color:#D6D6CC;
+	font-size:1.4em;
+	border-left: solid 1px #0A4CA1;
+	border-right: solid 1px #0A4CA1;
+}
+#breadcrumbs a {color:#000;text-decoration:none;font-weight:bold;}
+#breadcrumbs a:hover {color:#666;}
+#breadcrumbs ul {
+	margin:0;
+}
+#breadcrumbs ul li {
+	margin:3px;
+	padding:0 6px;
+	float:left;
+	border:solid 2px #D6D6CC;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+#breadcrumbs ul li.current_page_item {
+	border:solid 2px #0A4CA1;
+}
+
+#breadcrumbs table {
+	margin:0;
+	border:0;
+}
+
+#breadcrumbs td {
+	padding:0;
+	border:0;
+}
+
+#breadcrumbs .children {
+	background:#D6D6CC;
+	border:#000 1px solid;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+#breadcrumbs ul.dropdown li a {
+padding:0;
+}
+
+
+/**************************************/
+/*            MAIN CONTENT            */
+/**************************************/
+
+#content {
+	background-color:#fff;
+	border-radius: 0px 0px 20px 20px;
+	-moz-border-radius: 0px 0px 20px 20px;
+	-webkit-border-radius: 0px 0px 20px 20px;
+	border-left: solid 1px #0A4CA1;
+	border-bottom: solid 1px #0A4CA1;
+	border-right: solid 1px #0A4CA1;
+}
+
+#social {margin-top:12px;}
+#social a {
+	display:block;
+	margin-top:12px;
+	color:#000;
+	text-decoration:none;
+	width:95px;
+}
+#social a:visited {
+	display:block;
+	margin-top:12px;
+	color:#000;
+	text-decoration:none;
+}
+#social img {
+	vertical-align:middle;
+	margin-right:3px;
+}
+
+#social .button {
+	text-align:left;
+	padding:0.5em 1em;
+}
+
+#pages {margin-top:12px;}
+
+#pages h2 {
+	margin-left:1.0em;
+	font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif;
+	font-style: italic;
+}
+
+#commentform textarea {
+	width:660px;
+}
+
+/**************************************/
+/*            SIDEBAR                 */
+/**************************************/
+
+.widget h2 {
+	margin-bottom:6px;
+	color:#333;
+}
+
+.widget h2 a {
+	text-decoration:none;
+}
+
+.widget ul {
+	padding-top:6px;
+	background:transparent url(../img/recent.png) no-repeat scroll 0 0;
+}
+
+.widget ul li {
+	padding: 2px 0;
+}
+
+/**************************************/
+/*               FOOTER               */
+/**************************************/
+
+#single #prev a, #single #next a {
+	display:inline-block;
+	width:112px;
+	height:32px;
+	text-indent:-9999px;
+	margin-top:26px;
+}
+
+#single #prev a {
+	background:transparent url(../img/prev-button.png) no-repeat scroll 0 0;
+}
+
+#single #next a {
+	background:transparent url(../img/next-button.png) no-repeat scroll 0 0;
+}
+
+#classic {background-color:#fff;border:solid 1px #420;border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;}
+
+#entry-info {
+	color:#666;
+	border-top:dotted 1px #666;
+}
